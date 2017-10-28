@@ -3,6 +3,10 @@ import time
 import Image
 
 ####################################################
+# this was the first experiment I made to build the 
+# scanning electron microscope interface 
+####################################################
+
 #FIRMWARE COMMANDS
 #a - send file
 #b - nothing
@@ -11,15 +15,6 @@ import Image
 #e - exit bytestrem mode
 ####################################################
 """
-AVR reads some data, switches to an SPI slave,
-asserts a pin to the FTDI, 
-and then waits for the FTDI to initiate a read.
-
-Then the FTDI could send the data over USB 
-while the AVR starts reading more data as an SPI master. 
-
-
-
 
 To ascii int.
 ord('a')
